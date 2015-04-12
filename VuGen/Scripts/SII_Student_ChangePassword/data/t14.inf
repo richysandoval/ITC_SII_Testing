@@ -1,0 +1,13 @@
+[t14]
+FileName1=t14.htm
+URL1=https://sii.itcelaya.edu.mx/sii/index.php?r=site/profile
+Total=2
+RequestHeaderFile=t14_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t14_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_14.xml
+FileName2=t14_foto.jpg
+URL2=https://sii.itcelaya.edu.mx/sii/items/foto.php
+[ProtocolInfo]
+ProtocolId=QTWeb

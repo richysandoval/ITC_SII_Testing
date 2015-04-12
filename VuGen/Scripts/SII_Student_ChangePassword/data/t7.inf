@@ -1,0 +1,13 @@
+[t7]
+FileName1=t5.htm
+URL1=https://sii.itcelaya.edu.mx/sii/index.php?r=alumno/aplicacionesAlumno/aplicaciones
+Total=2
+SnapshotXmlFile=snapshot_7.xml
+RequestHeaderFile=t7_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t7_ResponseHeader.txt
+FileName2=t7_jquery.dataTables.html
+URL2=https://sii.itcelaya.edu.mx/sii/datatables/js/jquery.dataTables.js
+ContentType=application/javascript
+[ProtocolInfo]
+ProtocolId=QTWeb

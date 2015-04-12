@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Date: Sun, 12 Apr 2015 05:17:20 GMT
+Server: Apache/2.2.22 (Debian)
+Last-Modified: Tue, 03 Mar 2015 16:01:22 GMT
+ETag: "2000a9-e7a-51064723a21ed"
+Accept-Ranges: bytes
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 944
+Keep-Alive: timeout=5, max=99
+Connection: Keep-Alive
+Content-Type: text/css
+

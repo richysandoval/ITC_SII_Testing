@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Date: Sun, 12 Apr 2015 05:16:31 GMT
+Server: Apache/2.2.22 (Debian)
+Last-Modified: Mon, 02 Mar 2015 20:24:50 GMT
+ETag: "20019a-dac6-51054029f8022"
+Accept-Ranges: bytes
+Content-Length: 56006
+Keep-Alive: timeout=5, max=96
+Connection: Keep-Alive
+Content-Type: application/vnd.ms-fontobject
+

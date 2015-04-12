@@ -1,0 +1,15 @@
+[t2]
+FileName1=t1.htm
+URL1=https://sii.itcelaya.edu.mx/sii/index.php?r=cruge/ui/login
+Total=3
+SnapshotXmlFile=snapshot_2.xml
+RequestHeaderFile=t2_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t2_ResponseHeader.txt
+FileName2=t2_timeline.css
+URL2=https://sii.itcelaya.edu.mx/sii/css/plugins/timeline/timeline.css
+ContentType=text/css
+FileName3=t2_sb-admin.css
+URL3=https://sii.itcelaya.edu.mx/sii/css/sb-admin.css
+[ProtocolInfo]
+ProtocolId=QTWeb

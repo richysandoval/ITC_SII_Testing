@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<link rel="stylesheet" type="text/css" href="/sii/assets/98ab9155/estilos.css" />
+<title>SII - Login Ui</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="shortcut icon" href="/sii/images/favicon2.ico" />
+	<meta name="language" content="en" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Core CSS - Include with every page -->
+    <link href="/sii/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/sii/font-awesome/css/font-awesome.css" rel="stylesheet">
+
+    <!-- Page-Level Plugin CSS - Dashboard -->
+    <link href="/sii/css/plugins/morris/morris-0.4.3.min.css" rel="stylesheet">
+    <link href="/sii/css/plugins/timeline/timeline.css" rel="stylesheet">
+
+    <!-- SB Admin CSS - Include with every page -->
+    <link href="/sii/css/sb-admin.css" rel="stylesheet">
+    
+</head>
+
+<body>
+
+<div class="container" >
+
+	<img src="images/banner_top_itc.jpg" width="100%" id="banner-itc">
+	
+	<div class="container" >
+		<hr>
+		
+	<div class="row">
+    <div class="col-md-4 col-md-offset-4">
+
+    	<div class="panel panel-default panel-shadow">
+		  <div class="panel-heading text-center">
+		  	Sistema Integral de Información.
+		  </div>
+		  <div class="panel-body">
+			<div class="alert alert-danger">Usuario o contraseña incorrecto</div>
+			<div class="form">
+				<form id="logon-form" action="/sii/index.php?r=cruge/ui/login" method="post">
+				<div><i class="fa fa-user"></i>
+					<label class="error required" for="CrugeLogon_username">Usuario: <span class="required">*</span></label>					<input class="form-control error" name="CrugeLogon[username]" id="CrugeLogon_username" type="text" maxlength="45" value="08030380" />									</div>
+
+				<div><i class="fa fa-lock"></i>
+					<label class="error required" for="CrugeLogon_password">Contraseña: <span class="required">*</span></label>					<input class="form-control error" name="CrugeLogon[password]" id="CrugeLogon_password" type="password" maxlength="20" value="asdsdasdasdas" />									</div>
+
+				<div class="checkbox">
+																			</div>
+
+				<div class="form- pull-left">
+					<input class="btn btn-primary" type="submit" name="yt0" value="Aceptar" />				</div>
+				<br>
+				<div class="form- pull-right">
+					<a href="/sii/index.php?r=cruge/ui/pwdrec">¿No puedes acceder a tu cuenta?</a>				</div>
+			
+			</form>			</div><!-- form -->
+
+		  </div>
+		</div>
+
+
+	</div><!-- col-md-4 -->
+</div><!-- row -->
+	
+		<hr>
+	</div>
+
+	<div class="clear"></div>
+
+	<div id="footer">
+		<div class="row">
+            <p class="text-center">Copyright &copy; 2015 Instituto Tecnológico de Celaya.<br/>
+			Todos los derechos reservados.<br/>
+			Desarrollo de Software - Centro de Cómputo..
+			<!-- Todo esta bien -->
+			</p>
+		</div>
+	</div><!-- footer -->
+
+</div><!-- page -->
+
+</body>
+</html>
