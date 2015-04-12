@@ -1,0 +1,405 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<link rel="stylesheet" type="text/css" href="/sii/assets/70762d41/gridview/styles.css" />
+<link rel="stylesheet" type="text/css" href="/sii/assets/7a39b623/pager.css" />
+<script type="text/javascript" src="/sii/assets/814a94a7/jquery.min.js"></script>
+<script type="text/javascript" src="/sii/assets/814a94a7/jquery.ba-bbq.min.js"></script>
+<title>SII - Aplicaciones AplicacionesAlumno</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="shortcut icon" href="/sii/images/favicon2.ico" />
+	<meta name="language" content="en" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!-- Core CSS - Include with every page -->
+    <link href="/sii/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/sii/font-awesome/css/font-awesome.css" rel="stylesheet">
+
+    <!-- Page-Level Plugin CSS - Dashboard -->
+    <link href="/sii/css/plugins/morris/morris-0.4.3.min.css" rel="stylesheet">
+    <link href="/sii/css/plugins/timeline/timeline.css" rel="stylesheet">
+
+    <!-- SB Admin CSS - Include with every page -->
+    <link href="/sii/css/sb-admin.css" rel="stylesheet">
+
+    <!-- style tables gridview -->
+    <link href="/sii/css/gridView.css" rel="stylesheet">
+    <!-- bootstrap -->
+    <script src="/sii/js/bootstrap.min.js"></script>
+    <script src="/sii/js/bootstrap3-typeahead.js"></script>
+    <script src="/sii/js/plugins/metisMenu/jquery.metisMenu.js"></script>
+
+    <!-- Page-Level Plugin Scripts - Dashboard -->
+    <script src="/sii/js/plugins/morris/raphael-2.1.0.min.js"></script>
+    <script src="/sii/js/plugins/morris/morris.js"></script>
+
+    <!-- SB Admin Scripts - Include with every page -->
+    <script src="/sii/js/sb-admin.js"></script>
+
+    <!--fancybox-->
+    <link rel="stylesheet" href="/sii/fancybox/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
+    <script type="text/javascript" src="/sii/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+    <script type="text/javascript" src="/sii/fancybox/jquery.easing-1.3.pack.js"></script>
+    <!--fancybox END-->
+
+    <!-- datatables -->
+    <link rel="stylesheet" type="text/css" href="datatables/css/jquery.dataTables.css">
+    <script type="text/javascript" language="javascript" src="datatables/js/jquery.dataTables.js"></script>
+
+
+    <!-- chosen -->
+    <link rel="stylesheet" href="chosen/chosen.css">
+    <script src="chosen/chosen.jquery.js" type="text/javascript"></script>
+
+    <!-- alertify -->
+    <link rel="stylesheet" href="/sii/alertify/alertify.core.css" />
+    <link rel="stylesheet" href="/sii/alertify/alertify.default.css" id="toggleCSS" />
+    <script src="/sii/alertify/alertify.min.js"></script>
+    <!-- alertify -->
+
+    <script>
+        $(document).ready(function() {
+            $('.various').live('mouseover focus', function(){
+                $(".various").fancybox({
+                    'width'         : '90%',
+                    'height'        : '100%',
+                    'autoScale'     : true,
+                    'transitionIn'      : 'elastic',
+                    'transitionOut'     : 'elastic',
+                    'type'          : 'iframe',
+                    'autoDimensions'        : 'true'
+                });
+                return false;
+            });
+     
+            $('.datatable').dataTable( {
+               "pageLength": 100,
+                "language": {
+                    "url": "datatables/Spanish.json"
+                }
+            } );
+
+            $(".chosen-select").chosen({
+                no_results_text: "Oops, No se ha encontrado!",
+                width: "95%"
+            });
+
+            $(function () {
+              $('[data-toggle="tooltip"]').tooltip();
+            })
+            
+            
+
+            alertify.defaults = {
+                // dialogs defaults
+                modal:true,
+                movable:true,
+                resizable:true,
+                closable:true,
+                maximizable:true,
+                pinnable:true,
+                pinned:true,
+                padding: true,
+                overflow:true,
+                maintainFocus:true,
+                transition:'pulse',
+
+                // notifier defaults
+                notifier:{
+                    // auto-dismiss wait time (in seconds)  
+                    delay:5,
+                    // default position
+                    position:'bottom-right'
+                },
+
+                // language resources 
+                glossary:{
+                    // dialogs default title
+                    title:'AlertifyJS',
+                    // ok button text
+                    ok: 'OK',
+                    // cancel button text
+                    cancel: 'Cancelar'            
+                },
+
+                // theme settings
+                theme:{
+                    // class name attached to prompt dialog input textbox.
+                    input:'ajs-input',
+                    // class name attached to ok button
+                    ok:'ajs-ok',
+                    // class name attached to cancel button 
+                    cancel:'ajs-cancel'
+                }
+            };
+
+        });
+    </script>
+
+</head>
+
+<body>
+
+ <div id="wrapper">
+
+        <nav class="navbar navbar-default navbar-fixed-top" id="navbar-top" role="navigation" style="margin-bottom: 0">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="?r=site/index">
+                    <img src="images/LogoItc.png" width="20"> Instituto Tecnológico de Celaya
+                </a>
+            </div>
+            <!-- /.navbar-header -->
+
+            <ul class="nav navbar-top-links navbar-right">
+                                    <li>
+                        <a href="?r=site/gacela">
+                            <i class="fa fa-th fa-fw"></i> Más Aplicaciones </i>
+                        </a>
+                    </li>
+                                             
+                <!-- /.dropdown -->
+                <li class="dropdown" >
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        <i class="fa fa-user fa-fw"></i>  <i class="fa fa-caret-down"></i>
+                    </a>
+                    <ul class="dropdown-menu dropdown-user" id="menuOpciones">
+                        <li class="text-center">
+                            <img src="items/foto.php" alt="foto alumno" width="80">
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-user fa-fw"></i> 08030379</a>
+                        </li>
+                        <li>
+                            <a href="?r=site/profile"><i class="fa fa-key fa-fw"></i> Cambiar contraseña</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="?r=site/logoutSII" class="showProcesar"><i class="fa fa-sign-out fa-fw"></i> Salir</a>
+                        </li>
+                    </ul>
+                    <!-- /.dropdown-user -->
+                </li>
+                <!-- /.dropdown -->
+            </ul>
+            <!-- /.navbar-top-links -->
+
+            <div class="navbar-default navbar-static-side" role="navigation">
+                <div class="sidebar-collapse">
+                    <ul class="nav" id="side-menu">
+                        
+                        <li>
+                            <a href="?r=site/index">
+                                <i class="fa fa-home fa-fw"></i> Inicio
+                            </a>
+                        </li>
+                        
+                        <li class=" "><a href="/sii/index.php?r=alumno/aplicacionesAlumno/aplicaciones"><i class="fa fa-folder-o fa-fw"></i> Quejas y Sugerencias<span class="fa arrow"></span></a>
+<ul class="nav nav-second-level">
+<li><a href="/sii/index.php?r=calidad/buzon/create"><i class="fa fa-file-o fa-fw"></i>Buzón de quejas y sugerencias</a></li>
+</ul>
+</li>
+<li class=" "><a href="/sii/index.php?r=alumno/aplicacionesAlumno/aplicaciones"><i class="fa fa-folder-o fa-fw"></i> Alumno<span class="fa arrow"></span></a>
+<ul class="nav nav-second-level">
+<li><a href="/sii/index.php?r=bibliotecaVirtual/default"><i class="fa fa-file-o fa-fw"></i>Biblioteca Virtual</a></li>
+</ul>
+</li>
+    
+                      
+                    </ul>
+                    <!-- /#side-menu -->
+                </div>
+                <!-- /.sidebar-collapse -->
+            </div>
+            <!-- /.navbar-static-side -->
+        </nav>
+        
+        <div id="page-wrapper">
+            
+            
+    
+    <br>
+<div class="row">
+    <div class="col-lg-12">
+
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <i class="fa fa-user fa-fw"></i> SANDOVAL MARTÍNEZ LUIS RICARDO            </div>
+            <!-- /.panel-heading -->
+            <div class="panel-body">
+                <div class="col-lg-4 col-md-6 col-sm-4">
+                                           <img src="items/foto.php" alt="foto alumno" width="120">
+                                   </div>
+                <div class="col-lg-8 col-md-6 col-sm-4">
+                     <p>Especialidad: INGENIERÍA EN SISTEMAS COMPUTACIONALES</p>
+                     <p>Semestre: 11</p>
+                     <p>No. control: 08030379 </p>
+                     <p>Créditos acumulados: 400</p>
+                     <p>Inscrito: No</p>
+                     <p>Estatus: EG - EGRESADO            </p>
+                     
+                </div>
+            </div>
+            <!-- .panel-body -->
+        </div>
+        <!-- /.panel -->
+
+    </div>
+
+</div>    
+
+
+<div class="row">
+    <div class="col-lg-12">
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h3 class="panel-title"><i class="fa fa-table fa-fw"></i> Calificaciones de semestre</h3>
+            </div>
+            <div class="panel-body">
+              <p class="label label-default">Créditos del semestre: 0</p>
+              <div class="table-responsive">
+<div id="yw0" class="grid-view">
+
+<table class="items">
+<thead>
+<tr>
+<th id="yw0_c0"><a class="sort-link" href="/sii/index.php?r=alumno/aplicacionesAlumno/aplicaciones&amp;EAlumnosMaterias_sort=cveMateriaAlu">Clave</a></th><th id="yw0_c1"><a class="sort-link" href="/sii/index.php?r=alumno/aplicacionesAlumno/aplicaciones&amp;EAlumnosMaterias_sort=gpoMateriaAlu">Grupo</a></th><th id="yw0_c2">Materia</th><th id="yw0_c3"><a class="sort-link" href="/sii/index.php?r=alumno/aplicacionesAlumno/aplicaciones&amp;EAlumnosMaterias_sort=calUnoMateria">Cal. I</a></th><th id="yw0_c4"><a class="sort-link" href="/sii/index.php?r=alumno/aplicacionesAlumno/aplicaciones&amp;EAlumnosMaterias_sort=calDosMateria">Cal. II</a></th><th id="yw0_c5"><a class="sort-link" href="/sii/index.php?r=alumno/aplicacionesAlumno/aplicaciones&amp;EAlumnosMaterias_sort=calTresMateria">Cal. III</a></th><th id="yw0_c6"><a class="sort-link" href="/sii/index.php?r=alumno/aplicacionesAlumno/aplicaciones&amp;EAlumnosMaterias_sort=calCuatroMateria">Cal. IV</a></th><th id="yw0_c7"><a class="sort-link" href="/sii/index.php?r=alumno/aplicacionesAlumno/aplicaciones&amp;EAlumnosMaterias_sort=prmMateria">Promedio</a></th><th class="button-column" id="yw0_c8">Instrumentación Didáctica</th></tr>
+</thead>
+<tbody>
+<tr><td colspan="9" class="empty"><span class="empty">No se encontraron resultados.</span></td></tr>
+</tbody>
+</table>
+<div class="keys" style="display:none" title="/sii/index.php?r=alumno/aplicacionesAlumno/aplicaciones"></div>
+</div></div>
+<span class="label label-default">Las calificaciones se actualizan conforme el 
+    profesor las actualiza en el sistema.</span>
+
+
+            </div>
+          </div>
+      </div>
+
+</div>
+
+<div class="row">
+           <div class="col-sm-4 col-md-3 text-center">
+                <a href="?r=alumno/aplicacionesAlumno/inscripciones" class="thumbnail" >
+                      <i class="fa fa-pencil-square-o fa-5x"></i>
+                      <div class="caption">
+                        <p class="text-center">Inscripciones</p>
+                        
+                      </div>
+                </a>
+            </div>
+
+                          <div class="col-sm-4 col-md-3 text-center">
+                <a href="?r=alumno/aplicacionesAlumno/ordenEntrada" class="thumbnail" >
+                      <i class="fa fa-file-text-o fa-5x"></i>
+                      <div class="caption">
+                        <p class="text-center">Orden de entrada</p>
+                        
+                      </div>
+                </a>
+            </div>
+                        
+                        <div class="col-sm-4 col-md-3 text-center">
+                <a href="?r=recibospagos/recibospagos/reciboPago" class="thumbnail" >
+                      <i class="fa fa-money fa-5x"></i>
+                      <div class="caption">
+                        <p class="text-center">Recibo de pago</p>
+                      </div>
+                </a>
+            </div>
+            
+            
+            <div class="col-sm-4 col-md-3  text-center">
+                <a href="?r=citas/registro/index" class="thumbnail">
+                       <i class="fa fa-pencil fa-5x"></i>
+                      <div class="caption">
+                        <p class="text-center">Control de citas</p>
+                        
+                      </div>
+                </a>
+            </div>
+
+            <div class="col-sm-4 col-md-3  text-center">
+                <a href="?r=alumno/aplicacionesAlumno/kardex" class="thumbnail">
+                      <i class="fa fa-university fa-5x"></i>
+                      <div class="caption">
+                        <p class="text-center">Kardex</p>
+                        
+                      </div>
+                </a>
+            </div>
+ 
+            <div class="col-sm-4 col-md-3  text-center">
+                <a href="?r=calidad/buzon/create" class="thumbnail" >
+                      <i class="fa fa-envelope fa-5x"></i>
+                      <div class="caption">
+                        <p class="text-center">Buzón de quejas y sugerencias</p>
+                        
+                      </div>
+                </a>
+            </div>
+
+              <div class="col-sm-4 col-md-3  text-center">
+                <a href="?r=alumno/aplicacionesAlumno/office" class="thumbnail" >
+                      <i class="fa fa-file-word-o fa-5x"></i>
+                      <div class="caption">
+                        <p class="text-center">Office</p>
+                      </div>
+                </a>
+            </div>
+ </div>   
+            
+        </div>
+        <!-- /#page-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+
+    <!-- load modal -->
+    <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            
+            <p class="text-center"><br>
+                <img src="images/load4.gif" ><br>
+                Procesando...
+            </p>
+            
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $( "form" ).submit(function( event ) {
+                $('.bs-example-modal-sm').modal({
+                    backdrop: 'static'
+                });
+            });
+            $( ".showProcesar" ).click(function( event ) {
+              $('.bs-example-modal-sm').modal({
+                     backdrop: 'static'
+                });
+            });
+        }); 
+    </script>
+
+<script type="text/javascript" src="/sii/assets/70762d41/gridview/jquery.yiigridview.js"></script>
+<script type="text/javascript">
+/*<![CDATA[*/
+jQuery(function($) {
+jQuery('#yw0').yiiGridView({'ajaxUpdate':['yw0'],'ajaxVar':'ajax','pagerClass':'pager','loadingClass':'grid-view-loading','filterClass':'filters','tableClass':'items','selectableRows':1,'enableHistory':false,'updateSelector':'{page}, {sort}','filterSelector':'{filter}','pageVar':'EAlumnosMaterias_page'});
+});
+/*]]>*/
+</script>
+</body>
+</html>

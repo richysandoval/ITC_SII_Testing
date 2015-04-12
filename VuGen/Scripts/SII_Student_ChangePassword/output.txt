@@ -1,37 +1,37 @@
 	
 	 ******************************************************************************
-	 4/12/2015 3:18:00 PM SII_Student_ChangePassword, iteration No 001 
+	 4/12/2015 4:00:24 PM SII_Student_ChangePassword, iteration No 001 
+	 ******************************************************************************
+	 *  NumControl   : 08030379    
+	 *  Password     : swatch001aren--  
+	 *  New Password : swatch001aren--  
+	 ********************************                
+	 4/12/2015 4:00:27 PM 	 2.866739 	 SII_Student_ChangePass_00_openURL
+	 4/12/2015 4:00:30 PM 	 2.515746 	 SII_Student_ChangePass_01_login
+	 4/12/2015 4:00:30 PM 	 0.454630 	 SII_Student_ChangePass_02_ClickChangePassOption
+	 4/12/2015 4:00:58 PM 	 27.602728 	 SII_Student_ChangePass_03_UpdatePassword
+	 4/12/2015 4:01:00 PM 	 2.028703 	 SII_Student_ChangePass_04_logout
+	
+	 ******************************************************************************
+	 4/12/2015 4:01:00 PM SII_Student_ChangePassword, iteration No 002 
 	 ******************************************************************************
 	 *  NumControl   : 08030379    
 	 *  Password     : swatch001aren--  
 	 *  New Password : test1  
 	 ********************************                
-	 4/12/2015 3:18:03 PM 	 2.748568 	 SII_Student_ChangePass_00_openURL
-	 4/12/2015 3:18:06 PM 	 2.473234 	 SII_Student_ChangePass_01_login
-	 4/12/2015 3:18:06 PM 	 0.447349 	 SII_Student_ChangePass_02_ClickChangePassOption
+	 4/12/2015 4:01:01 PM 	 0.956282 	 SII_Student_ChangePass_00_openURL
+	 4/12/2015 4:01:07 PM 	 5.712976 	 SII_Student_ChangePass_01_login
+	 4/12/2015 4:01:07 PM 	 0.540852 	 SII_Student_ChangePass_02_ClickChangePassOption
 ChangePassword.c(236): Error: SII Pass updated - System shows error message: '[Contraseña debil.]' for :[08030379] Password:[test1]
-	 4/12/2015 3:18:08 PM 	 1.742580 	 SII_Student_ChangePass_04_logout
+ChangePassword.c(269): Error -27794: Failed to connect to server "sii.itc.mx:80": [10060] Connection timed out  	[MsgId: MERR-27794]
 	
 	 ******************************************************************************
-	 4/12/2015 3:18:08 PM SII_Student_ChangePassword, iteration No 002 
-	 ******************************************************************************
-	 *  NumControl   : 08030379    
-	 *  Password     : swatch001aren--  
-	 *  New Password : test1  
-	 ********************************                
-	 4/12/2015 3:18:12 PM 	 3.417075 	 SII_Student_ChangePass_00_openURL
-	 4/12/2015 3:18:15 PM 	 2.801852 	 SII_Student_ChangePass_01_login
-	 4/12/2015 3:18:15 PM 	 0.431374 	 SII_Student_ChangePass_02_ClickChangePassOption
-ChangePassword.c(236): Error: SII Pass updated - System shows error message: '[Contraseña debil.]' for :[08030379] Password:[test1]
-	 4/12/2015 3:18:17 PM 	 1.834378 	 SII_Student_ChangePass_04_logout
-	
-	 ******************************************************************************
-	 4/12/2015 3:18:17 PM SII_Student_ChangePassword, iteration No 003 
+	 4/12/2015 4:01:29 PM SII_Student_ChangePassword, iteration No 003 
 	 ******************************************************************************
 	 *  NumControl   : 15030379    
 	 *  Password     : XXXX  
 	 *  New Password : XXXX  
 	 ********************************                
-	 4/12/2015 3:18:18 PM 	 0.963485 	 SII_Student_ChangePass_00_openURL
+	 4/12/2015 4:01:30 PM 	 1.011772 	 SII_Student_ChangePass_00_openURL
 ChangePassword.c(153): Error: SII Login - User or Password invalid for Username:[15030379] Password:[XXXX]
 Vuser Terminated.

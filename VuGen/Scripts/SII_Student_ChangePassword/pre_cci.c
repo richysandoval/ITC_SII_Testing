@@ -1,4 +1,4 @@
-# 1 "c:\\users\\user\\documents\\vugen\\scripts\\sii_student_changepassword\\\\combined_SII_Student_ChangePassword.c"
+# 1 "c:\\users\\user\\documents\\github\\itc_sii_testing\\vugen\\scripts\\sii_student_changepassword\\\\combined_SII_Student_ChangePassword.c"
 # 1 "C:\\Program Files\\HP\\LoadRunner\\include/lrun.h" 1
  
  
@@ -925,7 +925,7 @@ int lr_db_getvalue(char * pFirstArg, ...);
 
 
 
-# 1 "c:\\users\\user\\documents\\vugen\\scripts\\sii_student_changepassword\\\\combined_SII_Student_ChangePassword.c" 2
+# 1 "c:\\users\\user\\documents\\github\\itc_sii_testing\\vugen\\scripts\\sii_student_changepassword\\\\combined_SII_Student_ChangePassword.c" 2
 
 # 1 "C:\\Program Files\\HP\\LoadRunner\\include/SharedParameter.h" 1
 
@@ -1075,7 +1075,7 @@ extern VTCERR2  lrvtc_noop();
 
 
 
-# 2 "c:\\users\\user\\documents\\vugen\\scripts\\sii_student_changepassword\\\\combined_SII_Student_ChangePassword.c" 2
+# 2 "c:\\users\\user\\documents\\github\\itc_sii_testing\\vugen\\scripts\\sii_student_changepassword\\\\combined_SII_Student_ChangePassword.c" 2
 
 # 1 "globals.h" 1
 
@@ -2386,7 +2386,7 @@ double time_elapsed;
 merc_timer_handle_t timer;
 int ShowFlag;
 
-# 3 "c:\\users\\user\\documents\\vugen\\scripts\\sii_student_changepassword\\\\combined_SII_Student_ChangePassword.c" 2
+# 3 "c:\\users\\user\\documents\\github\\itc_sii_testing\\vugen\\scripts\\sii_student_changepassword\\\\combined_SII_Student_ChangePassword.c" 2
 
 # 1 "vuser_init.c" 1
  
@@ -2420,7 +2420,7 @@ vuser_init()
 
 	return 0;
 }
-# 4 "c:\\users\\user\\documents\\vugen\\scripts\\sii_student_changepassword\\\\combined_SII_Student_ChangePassword.c" 2
+# 4 "c:\\users\\user\\documents\\github\\itc_sii_testing\\vugen\\scripts\\sii_student_changepassword\\\\combined_SII_Student_ChangePassword.c" 2
 
 # 1 "ChangePassword.c" 1
 ChangePassword()
@@ -2713,12 +2713,12 @@ ShowElapsedTime("SII_Student_ChangePass_04_logout");
 
 	return 0;
 }
-# 5 "c:\\users\\user\\documents\\vugen\\scripts\\sii_student_changepassword\\\\combined_SII_Student_ChangePassword.c" 2
+# 5 "c:\\users\\user\\documents\\github\\itc_sii_testing\\vugen\\scripts\\sii_student_changepassword\\\\combined_SII_Student_ChangePassword.c" 2
 
 # 1 "vuser_end.c" 1
 vuser_end()
 {
 	return 0;
 }
-# 6 "c:\\users\\user\\documents\\vugen\\scripts\\sii_student_changepassword\\\\combined_SII_Student_ChangePassword.c" 2
+# 6 "c:\\users\\user\\documents\\github\\itc_sii_testing\\vugen\\scripts\\sii_student_changepassword\\\\combined_SII_Student_ChangePassword.c" 2
 

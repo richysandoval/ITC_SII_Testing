@@ -22,39 +22,7 @@
     <FileEntry Name="UserTasks.xml" Filter="2" />
     <FileEntry Name="combined_SII_Student_ChangePassword.c" Filter="2" />
     <FileEntry Name="pre_cci.c" Filter="2" />
-    <FileEntry Name="17902098044.idx" Filter="1" />
-    <FileEntry Name="17902098044_2HF.749.idx" Filter="1" />
-    <FileEntry Name="17902098044_3rN.813.idx" Filter="1" />
-    <FileEntry Name="17902098044_5nM.693.idx" Filter="1" />
-    <FileEntry Name="17902098044_AZq.581.idx" Filter="1" />
-    <FileEntry Name="17902098044_BuJ.133.idx" Filter="1" />
-    <FileEntry Name="17902098044_c8U.129.idx" Filter="1" />
-    <FileEntry Name="17902098044_cGR.145.idx" Filter="1" />
-    <FileEntry Name="17902098044_DDP.457.idx" Filter="1" />
-    <FileEntry Name="17902098044_E8v.797.idx" Filter="1" />
-    <FileEntry Name="17902098044_Eem.975.idx" Filter="1" />
-    <FileEntry Name="17902098044_EU3.361.idx" Filter="1" />
-    <FileEntry Name="17902098044_FOb.967.idx" Filter="1" />
-    <FileEntry Name="17902098044_gGa.673.idx" Filter="1" />
-    <FileEntry Name="17902098044_GuS.961.idx" Filter="1" />
-    <FileEntry Name="17902098044_h9I.159.idx" Filter="1" />
-    <FileEntry Name="17902098044_jjQ.619.idx" Filter="1" />
-    <FileEntry Name="17902098044_Jsp.605.idx" Filter="1" />
-    <FileEntry Name="17902098044_Jyo.983.idx" Filter="1" />
-    <FileEntry Name="17902098044_kl5.197.idx" Filter="1" />
-    <FileEntry Name="17902098044_L1O.781.idx" Filter="1" />
-    <FileEntry Name="17902098044_L2c.233.idx" Filter="1" />
-    <FileEntry Name="17902098044_ms7.459.idx" Filter="1" />
-    <FileEntry Name="17902098044_Nwf.727.idx" Filter="1" />
-    <FileEntry Name="17902098044_OLG.335.idx" Filter="1" />
-    <FileEntry Name="17902098044_OqM.583.idx" Filter="1" />
-    <FileEntry Name="17902098044_pBD.357.idx" Filter="1" />
-    <FileEntry Name="17902098044_sjP.535.idx" Filter="1" />
-    <FileEntry Name="17902098044_smk.701.idx" Filter="1" />
-    <FileEntry Name="17902098044_tmL.491.idx" Filter="1" />
-    <FileEntry Name="17902098044_UEc.5.idx" Filter="1" />
-    <FileEntry Name="17902098044_w9M.623.idx" Filter="1" />
-    <FileEntry Name="17902098044_xEX.5.idx" Filter="1" />
+    <FileEntry Name="1392198644.idx" Filter="1" />
     <FileEntry Name="custom_body_variables.txt" Filter="1" />
     <FileEntry Name="logfile.log" Filter="1" />
     <FileEntry Name="lrw_custom_body.h" Filter="1" />
@@ -69,12 +37,6 @@
     <FileEntry Name="SII_Student_ChangePassword.sdf" Filter="1" />
     <FileEntry Name="ThumbnailsCache.tmp" Filter="1" />
     <FileEntry Name="data\" Filter="1" />
-    <FileEntry Name="result1\" Filter="1" />
-    <FileEntry Name="result2\" Filter="1" />
-    <FileEntry Name="result3\" Filter="1" />
-    <FileEntry Name="result4\" Filter="1" />
-    <FileEntry Name="result5\" Filter="1" />
-    <FileEntry Name="result6\" Filter="1" />
-    <FileEntry Name="result7\" Filter="1" />
+    <FileEntry Name="results_13-Apr-2015\" Filter="1" />
   </GeneralFiles>
 </VugenScriptMetadata>

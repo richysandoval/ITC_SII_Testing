@@ -2,8 +2,8 @@
 -DCCI
 -D_IDA_XL
 -DWINNT
--IC:\Users\User\Documents\VuGen\Scripts\SII_Student_ChangePassword
+-IC:\Users\User\Documents\GitHub\ITC_SII_Testing\VuGen\Scripts\SII_Student_ChangePassword
 -IC:\Program Files\HP\LoadRunner\include
--ec:\users\user\documents\vugen\scripts\sii_student_changepassword\\logfile.log
-c:\users\user\documents\vugen\scripts\sii_student_changepassword\\combined_SII_Student_ChangePassword.c
-c:\users\user\documents\vugen\scripts\sii_student_changepassword\\pre_cci.c
+-ec:\users\user\documents\github\itc_sii_testing\vugen\scripts\sii_student_changepassword\\logfile.log
+c:\users\user\documents\github\itc_sii_testing\vugen\scripts\sii_student_changepassword\\combined_SII_Student_ChangePassword.c
+c:\users\user\documents\github\itc_sii_testing\vugen\scripts\sii_student_changepassword\\pre_cci.c
